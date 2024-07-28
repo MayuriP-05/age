@@ -19,6 +19,6 @@ function calculateAge(birthDate) {
       const age = calculateAge(birthdateInput);
       document.getElementById('age').innerText = `You are ${age} years old `;
     } else {
-      document.getElementById('age').innerText = 'Please enter a valid birthdate.';
+      document.getElementById('age').innerText = 'Please enter a valid birth-date.';
     }
   }
